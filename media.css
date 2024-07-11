@@ -1,0 +1,13 @@
+@media screen and (max-width:650px)
+{
+    .game-board{
+        grid-template-columns: repeat(3, minmax(90px,1fr));
+    }
+    .container h1{
+        font-size: 24px;
+    }
+    .cell{
+        height: 90px;
+        font-size: 50px;
+    }
+}
